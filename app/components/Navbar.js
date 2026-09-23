@@ -27,7 +27,9 @@ export default function Navbar() {
             height={80}
           />
           <span className="font-heading text-xl font-bold tracking-wider">
-            VEXORA
+           <a href="#home" className="text-white hover:text-vexora-red transition-colors">
+             VEXORA
+           </a>
           </span>
         </div>
 
