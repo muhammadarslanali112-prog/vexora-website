@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className=" fade-in min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20"
+      className=" fade-in min-h-screen flex flex-col items-center justify-center text-center px-6 pt-10"
     >
-      <hr className="border-white/100 w-full mb-6 mx-auto" />
+      {/* <hr className="border-white/100 w-full mb-6 mx-" /> */}
       <p className="font-body text-vexora-red uppercase tracking-[0.3em] text-sm mb-4">
         Hip-Hop Visual Studio
       </p>

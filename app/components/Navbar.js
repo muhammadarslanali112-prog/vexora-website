@@ -17,14 +17,14 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-vexora-black/90 backdrop-blur-sm border-b border-vexora-red/20">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
             src="/images/logo.png"
             alt="Vexora Visual Logo"
-            width={45}
-            height={45}
+            width={80}
+            height={80}
           />
           <span className="font-heading text-xl font-bold tracking-wider">
             VEXORA

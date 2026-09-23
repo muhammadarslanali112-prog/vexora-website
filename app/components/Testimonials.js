@@ -15,7 +15,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="fade-in py-24 px-6 bg-vexora-gray/30">
+    <section  id="testimonials"  className="fade-in py-24 px-6 bg-vexora-gray/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="font-body text-vexora-red uppercase tracking-[0.3em] text-sm mb-3">
